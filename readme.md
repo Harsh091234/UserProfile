@@ -1,6 +1,21 @@
-[Site Live] : https://userprofile-u2a0.onrender.com
+👤 User Profile Web Application
+🌐 Live Demo: Click here to visit the site
 
-In this web application, you can
--> create account, login account, logout account
--> create post, edit post, like & unlike post
--> change profile pic
+✨ Features
+✅ User Authentication
+
+Create an account
+
+Login and logout securely
+
+✅ Post Management
+
+Create new posts
+
+Edit your posts
+
+Like and unlike posts
+
+✅ Profile Customization
+
+Upload or change your profile picture
