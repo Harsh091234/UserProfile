@@ -11,9 +11,9 @@ require("dotenv").config();
 
 
 const app = express();
-const port = process.env.port;
-const mongoUrl = process.env.mongoUrlLocal;
-// const mongoUrl = process.env.mongoUrlOnline;
+const port = process.env.port | 3000;
+// const mongoUrl = process.env.mongoUrlLocal;
+const mongoUrl = process.env.mongoUrlOnline;
   
 connectToMongoDB(mongoUrl);
 
