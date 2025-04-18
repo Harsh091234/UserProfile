@@ -1,21 +1,22 @@
-👤 User Profile Web Application
-🌐 Live Demo: Click here to visit the site
+# 👤 User Profile Web Application
 
-✨ Features
-✅ User Authentication
+🌐 **Live Demo:** [Click here to visit the site](https://userprofile-u2a0.onrender.com)
 
-Create an account
+---
 
-Login and logout securely
+## ✨ Features
 
-✅ Post Management
+✅ **User Authentication**  
+- Create an account  
+- Login and logout securely  
 
-Create new posts
+✅ **Post Management**  
+- Create new posts  
+- Edit your posts  
+- Like and unlike posts  
 
-Edit your posts
+✅ **Profile Customization**  
+- Upload or change your profile picture  
 
-Like and unlike posts
+---
 
-✅ Profile Customization
-
-Upload or change your profile picture
