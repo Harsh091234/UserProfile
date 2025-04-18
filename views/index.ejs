@@ -5,25 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="stylesheets/index.css">
 </head>
 <body class="text-white font-sans bg-zinc-950 min-h-screen w-full flex items-center justify-center" >
-   <div class="signUpForm  outline-none">
-    <div class=" bg-zinc-800 p-3 rounded-lg h-[24rem] w-[19rem]">
-        <h1 class="font-normal text-3xl mt-2 mb-4 text-center ">
+   <div class="max-sm:w-full signUpForm  outline-none h-[24rem] mx-3 w-[19rem]  ">
+    <div class=" bg-zinc-800 p-3 rounded-lg  ">
+        <h1 id="test" class="max-md:text-[33px] font-normal text-3xl mt-2 mb-4 text-center ">
             Create Account
         </h1>
         <form action="/create" method="post" class="flex gap-1.5 flex-col">
-            <input type="text" placeholder="Full Name" name="name" class="bg-transparent border-1 border-zinc-500 px-3 py-1.5 rounded-lg outline-none mb-1" required>
+            <input type="text" placeholder="Full Name" name="name" class="bg-transparent border-1 border-zinc-500 px-3 py-1.5 rounded-lg outline-none mb-1 " required>
             <input type="text" placeholder="Username" name="username" class="bg-transparent border-1 border-zinc-500 px-3 py-1.5 rounded-lg outline-none mb-1"  required>
             <input type="email" placeholder="Email" name="email" class="bg-transparent border-1 border-zinc-500 px-3 py-1.5 rounded-lg outline-none mb-1" required>
             <input type="text" placeholder="Password" name="password" class="bg-transparent border-1 border-zinc-500 px-3 py-1.5 rounded-lg outline-none mb-1" required>
             <input type="number" placeholder="Age" name="age" class="bg-transparent border-1 border-zinc-500 px-3 py-1.5 rounded-lg outline-none mb-1" required>
-            <input type="submit" value="Create Account" class="hover:bg-blue-400 bg-blue-500 px-3 py-1.5 rounded-lg mt-3">
+            <input type="submit" value="Create Account" class=" max-md:text-lg hover:bg-blue-400 bg-blue-500 px-3 py-1.5 rounded-lg mt-3 cursor-pointer">
         </form>
     </div>
     <div class=" flex justify-center flex-col mt-6">
-        <h1 class="text-center">Already have an accout?</h1>
-        <a href="/login" class="text-center font-medium text-blue-500 hover:underline" >Sign in</a>
+        <h1 class="max-md:text-lg text-md text-center">Already have an account?</h1>
+        <a href="/login" class="max-md:text-lg text-center text-md text-blue-500 hover:underline" >Sign in</a>
     </div>
    </div> 
     
