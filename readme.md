@@ -2,6 +2,7 @@
 
 🌐 **Live Demo:** [Click here to visit the site](https://userprofile-u2a0.onrender.com)
 
+https://img.shields.io/github/stars/harsh091234/Userprofile
 ---
 
 ## ✨ Features
